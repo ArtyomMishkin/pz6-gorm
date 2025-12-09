@@ -13,12 +13,19 @@ REST API на Go + GORM + PostgreSQL для управления заметка�
 
 ## Файловая структура проекта:
 pz6-gorm/
+
 ├── cmd/server/main.go
+
 ├── internal/db/postgres.go
+
 ├── internal/models/models.go
+
 ├── internal/http/
+
 │ ├── router.go
+
 │ └── handlers.go
+
 └── go.mod
 
 ## ВАЖНОЕ ПРИМЕЧАНИЕ
