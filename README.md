@@ -55,6 +55,7 @@ pz6-gorm/
 
 ## Запуск
 $env:DB_DSN="host=127.0.0.1 user=postgres password=postgres dbname=pz6_gorm port=5432 sslmode=disable"
+
 go run ./cmd/server
 
 <img width="788" height="117" alt="image" src="https://github.com/user-attachments/assets/1913f053-b2ea-4196-8b06-a56e0dfc36bb" />
